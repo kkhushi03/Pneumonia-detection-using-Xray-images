@@ -7,8 +7,6 @@ Chest X-ray images (anterior-posterior) were selected from retrospective cohorts
 
 A deep learning model was used for the classification, the details of which are given below:
 
-Model
-
 CNN(Convolution Neural Networks)
 
 The CNN consisted of the following layers:
