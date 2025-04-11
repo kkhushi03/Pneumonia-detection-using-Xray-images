@@ -22,3 +22,5 @@ Dense layer: Consists of 512 neurons with a ReLU activation function.
 Dense layer: Consists of a single neuron with a sigmoid activation function, representing the output class probabilities.
 
 Additionally, early stopping was used in the model training process to prevent overfitting. The EarlyStopping callback was applied, monitoring the validation loss and stopping the training if the validation loss did not improve for 5 consecutive epochs. This technique helps to avoid overfitting by stopping the training process when the model's performance on the validation data stops improving, thus preventing excessive training that may lead to overfitting. Apart from that, as the data was imbalanced, data augmentation was used to cure the imbalanced dataset.
+
+- Checkout the deployed HuggingFace model: https://huggingface.co/spaces/kkhushisaid/Pneumonia_Detection_using_X-ray_Images
