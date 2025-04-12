@@ -29,6 +29,6 @@ This project implements a Convolutional Neural Network (CNN) for detecting pneum
 
 - Input Image Requirements
 
-Size: 299x299 pixels (resized)
+-- Size: 299x299 pixels (resized)
 
-Format: Grayscale (the model expects single-channel images)
+-- Format: Grayscale (the model expects single-channel images)
