@@ -12,8 +12,23 @@ This project implements a Convolutional Neural Network (CNN) for detecting pneum
 ## Model Overview
 - Model Type: Convolutional Neural Network (CNN)
 
--Input: Grayscale images of size (299, 299, 1)
+- Input: Grayscale images of size (299, 299, 1)
 
 - Output: Binary classification - "Pneumonia Detected" (1) or "No Pneumonia Detected" (0)
 
 - Framework: TensorFlow/Keras
+
+## How to Use
+
+- Once the Gradio interface is launched, follow these steps:
+
+- Upload a chest X-ray image in .jpg or .png format.
+
+
+- The model will classify the image and display either "Pneumonia Detected" or "No Pneumonia Detected".
+
+- Input Image Requirements
+
+Size: 299x299 pixels (resized)
+
+Format: Grayscale (the model expects single-channel images)
