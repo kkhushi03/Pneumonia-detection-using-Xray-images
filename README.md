@@ -32,3 +32,7 @@ This project implements a Convolutional Neural Network (CNN) for detecting pneum
 - Size: 299x299 pixels (resized)
 
 - Format: Grayscale (the model expects single-channel images)
+
+
+
+- Checkout the deployed HuggingFace Model: https://huggingface.co/spaces/kkhushisaid/Pneumonia_Detection_using_X-ray_Images
